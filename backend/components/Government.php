@@ -17,6 +17,6 @@ class Government extends Component
 {
     public function onDisaster($event)
     {
-        echo "来自{$event->sender} 的灾难";
+        print_r("来自aaa 的灾难");
     }
 }

@@ -8,12 +8,15 @@
 
 namespace backend\components;
 
+use yii\base\Component;
+
 /**
  * Class Coal 煤矿
  * @package backend\components
  */
-class Coal
+class Coal extends Component
 {
+
     const EVENT_DISASTER = 'disaster';
 
 }
